@@ -11,7 +11,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace SMPDomain
+namespace SMPDomain.FeatureFiles
 {
     using TechTalk.SpecFlow;
     
