@@ -8,6 +8,12 @@ gulp.task('clean:build', 'clean build target directories', function (cb) {
     ], cb);
   });
 
+gulp.task('clean:packages', 'clean packages', function (cb) {
+  del([
+    'packages/**'
+    ], cb);
+  });
+
 gulp.task('clean:test', 'clean test results', function (cb) {
   del([
     'TestResults/**',
@@ -15,4 +21,4 @@ gulp.task('clean:test', 'clean test results', function (cb) {
     ], cb);
   });
 
-gulp.task('clean', 'clean all', ['clean:build', 'clean:test']);
+gulp.task('clean', 'clean all', ['clean:packages', 'clean:build', 'clean:test']);
