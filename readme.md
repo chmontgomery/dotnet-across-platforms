@@ -25,7 +25,23 @@ Simple project showing the ability to compile and run tests across platforms
  mono packages/NUnit.Runners.2.6.3/tools/nunit-console.exe SMPDomain/bin/Debug/SMPDomain.dll
  ```
 
- ## Mac OS and Linux with kvm
+## Mac OS and Linux with kpm
+
+NOTE: currently doesn't work.
 
 1. install [kvm](https://github.com/aspnet/Home#install-the-k-version-manager-kvm)
-1. todo...
+1. restore NuGet packages
+
+ ```
+ kpm restore
+ ```
+
+1. compile
+
+ ```
+ kpm build
+ ```
+
+1. run tests
+
+ `?`
