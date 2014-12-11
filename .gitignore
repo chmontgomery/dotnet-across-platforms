@@ -5,3 +5,4 @@
 TestResult.xml
 *.DotSettings.user
 *.suo
+/node_modules

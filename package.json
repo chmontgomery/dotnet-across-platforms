@@ -1,0 +1,20 @@
+{
+  "name": "SMPDomain",
+  "version": "0.0.0",
+  "description": "Simple project showing the ability to compile and run tests across platforms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.dowjones.net/montgomeryc/SMPDomain.git"
+  },
+  "author": "Chris Montgomery",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^1.1.0",
+    "gulp": "^3.8.10",
+    "gulp-help": "^1.3.1"
+  }
+}
