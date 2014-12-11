@@ -1,13 +1,14 @@
 {
-  "configurations": {
-    "net453": {}
+  "frameworks": {
+    "aspnet453": {},
+    "aspnetcore453": {}
   },
   "dependencies": {
-    "NUnit": { "version": "2.6.3" },
-    "SpecFlow": { "version": "1.9.0" },
-    "SpecFlow.NUnit": { "version": "1.1.1" },
-    "SpecRun.SpecFlow": { "version": "1.2.0" },
-    "NUnit.Runners": { "version": "2.6.3" },
-    "SpecRun.Runner" : { "version": "1.2.0" }
+    "NUnit": "2.6.3",
+    "SpecFlow": "1.9.0",
+    "SpecFlow.NUnit": "1.1.1",
+    "SpecRun.SpecFlow": "1.2.0" ,
+    "NUnit.Runners": "2.6.3",
+    "SpecRun.Runner" : "1.2.0"
   }
 }
