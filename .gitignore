@@ -3,3 +3,5 @@
 /SMPDomain/obj
 /SMPDomain/bin
 TestResult.xml
+*.DotSettings.user
+*.suo
