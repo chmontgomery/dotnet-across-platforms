@@ -1,0 +1,9 @@
+{
+  "frameworks": {
+    "aspnet453": {}
+  },
+  "dependencies": {
+    "NUnit.Runners": { "version": "2.6.3" },
+    "SpecRun.Runner" : { "version": "1.2.0" }
+  }
+}
