@@ -1,7 +1,6 @@
 {
   "frameworks": {
-    "aspnet453": {},
-    "aspnetcore453": {}
+    "net453": {}
   },
   "dependencies": {
     "NUnit": "2.6.3",

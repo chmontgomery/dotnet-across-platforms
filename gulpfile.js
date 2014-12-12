@@ -4,7 +4,8 @@ var del = require('del');
 gulp.task('clean:build', 'clean build target directories', function (cb) {
   del([
     'SMPDomain/bin/**',
-    'SMPDomain/obj/**'
+    'SMPDomain/obj/**',
+    'bin/**'
     ], cb);
   });
 
