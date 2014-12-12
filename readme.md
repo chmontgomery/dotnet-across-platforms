@@ -4,7 +4,7 @@ Simple project showing the ability to compile and run tests across platforms
 
 ## Build and run
 
-## Windows with msbuild
+### Windows with msbuild
 
 1. restore NuGet packages
 
@@ -24,7 +24,7 @@ Simple project showing the ability to compile and run tests across platforms
  packages/NUnit.Runners.2.6.3/tools/nunit-console.exe SMPDomain/bin/Debug/SMPDomain.dll
  ```
 
-## Mac OS and Linux with mono
+### Mac OS and Linux with mono
 
 1. install [mono](http://www.mono-project.com/docs/getting-started/install/)
 1. restore NuGet packages
@@ -45,7 +45,7 @@ Simple project showing the ability to compile and run tests across platforms
  mono packages/NUnit.Runners.2.6.3/tools/nunit-console.exe SMPDomain/bin/Debug/SMPDomain.dll
  ```
 
-## Mac OS and Linux with kpm
+### Mac OS and Linux with kpm
 
 1. install [kvm](https://github.com/aspnet/Home#install-the-k-version-manager-kvm)
 1. restore NuGet packages
@@ -65,3 +65,14 @@ Simple project showing the ability to compile and run tests across platforms
  ```
  mono ~/.kpm/packages/NUnit.Runners/2.6.3/tools/nunit-console.exe bin/Debug/net453/SMPDomain.dll
  ```
+
+### Docker
+
+1. [install docker](http://docs.docker.com/installation/)
+1. build image
+
+ ```
+ docker build --tag=smpdomain .
+ ```
+
+1. verify docker returned with a `0` exit code
